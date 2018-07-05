@@ -1,0 +1,6 @@
+<StyleCopSettings Version="105">
+  <GlobalSettings>
+    <StringProperty Name="LinkedSettingsFile">..\..\..\NET.S.2018.Kanunnikov.03\Algorithms\Settings.StyleCop</StringProperty>
+    <StringProperty Name="MergeSettingsFiles">Linked</StringProperty>
+  </GlobalSettings>
+</StyleCopSettings>
