@@ -34,7 +34,7 @@ namespace Extensions
         /// <returns>IEEE 754 string representation.</returns>
         private static string ConvertToIEEE(this long bits)
         {
-            StringBuilder result = new StringBuilder();
+            StringBuilder result = new StringBuilder(); // Set char[] and pass it to this constructor
             for (int i = 0; i < BitsInLong; i++)
             {
                 if ((bits & 1) == 1)
